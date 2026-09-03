@@ -3,19 +3,15 @@ const siteMetadata = {
     title: 'My Blog',
     author: 'Your Name',
     headerTitle: 'My Blog',
-    description: 'A personal blog built with Next.js and Tailwind CSS.',
+    description: 'A Personal Blog web application about everything.',
     language: 'en-us',
     theme: 'system', // system, dark or light
     siteUrl: 'https://your-domain.vercel.app', // your website URL
     siteLogo: '/logo.png',
     socialBanner: '/social-banner.png', // add social banner in the public folder
-    email: 'you@example.com',
-    github: 'https://github.com/yourusername',
-    twitter: 'https://twitter.com/yourusername',
-    facebook: 'https://facebook.com',
-    youtube: 'https://youtube.com',
-    linkedin: 'https://www.linkedin.com',
-    dribbble: 'https://www.dribbble.com',
+    email: 'www.deepak.poudel077@gmail.com',
+    github: 'https://github.com/Hastag-Deepak-Poudel',
+    instagram: 'https://instagram.com/hashtag_dipak',
     locale: 'en-US',
   }
 
