@@ -14,9 +14,6 @@
     "content:watch": "velite --watch"
   },
   "dependencies": {
-    "@lottiefiles/dotlottie-react": "^0.19.0",
-    "@supabase/supabase-js": "^2.104.1",
-    "@tailwindcss/forms": "^0.5.11",
     "@tailwindcss/postcss": "^4.2.4",
     "@tailwindcss/typography": "^0.5.19",
     "date-fns": "^4.1.0",
@@ -26,7 +23,6 @@
     "postcss": "^8.5.10",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
-    "react-hook-form": "^7.73.1",
     "reading-time": "^1.5.0",
     "rehype-autolink-headings": "^7.1.0",
     "rehype-pretty-code": "^0.14.3",
