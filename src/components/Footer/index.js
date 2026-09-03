@@ -28,14 +28,8 @@ const Footer = () => {
 
       <div className="w-full mt-8 relative font-medium border-t border-solid border-light py-6 px-8 flex flex-col md:flex-row items-center justify-between">
         <span className="text-center">
-          &copy;{new Date().getFullYear()} {siteMetadata.author}. All rights reserved.
+          &copy;{new Date().getFullYear()} Deepak Poudel. All rights reserved.
         </span>
-        <Link
-          href="/sitemap.xml"
-          className="text-center underline my-4 md:my-0"
-        >
-          sitemap.xml
-        </Link>
       </div>
     </footer>
   );
