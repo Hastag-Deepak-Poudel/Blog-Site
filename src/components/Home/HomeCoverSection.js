@@ -10,7 +10,7 @@ const HomeCoverSection = ({ blogs }) => {
   if (!latestBlog) {
     return (
       <div className="w-full inline-block">
-        <article className="flex flex-col items-center justify-center mx-5 sm:mx-10 relative h-[60vh] sm:h-[85vh] rounded-3xl overflow-hidden bg-dark">
+        <article className="flex flex-col items-center justify-center relative h-[60vh] sm:h-[85vh] rounded-3xl overflow-hidden bg-dark">
           <div className="absolute top-0 left-0 bottom-0 right-0 h-full bg-gradient-to-b from-transparent from-0% to-dark/90 rounded-3xl z-0" />
           <div className="relative z-10 flex flex-col items-center justify-center text-center px-6">
             <h1 className="font-bold text-light text-3xl sm:text-4xl md:text-5xl lg:text-6xl max-w-4xl leading-tight">
@@ -27,7 +27,7 @@ const HomeCoverSection = ({ blogs }) => {
 
   return (
     <div className="w-full inline-block">
-      <article className="flex flex-col items-center justify-center mx-5 sm:mx-10 relative h-[60vh] sm:h-[85vh] rounded-3xl overflow-hidden bg-dark">
+      <article className="flex flex-col items-center justify-center relative h-[60vh] sm:h-[85vh] rounded-3xl overflow-hidden bg-dark">
         <Link href={latestBlog.url} className="absolute top-0 left-0 bottom-0 right-0 h-full">
           <Image
             src={latestBlog.image.src}
