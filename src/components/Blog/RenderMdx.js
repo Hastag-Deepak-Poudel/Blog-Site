@@ -20,6 +20,9 @@ const RenderMdx = ({blog}) => {
     prose-figcaption:mt-1
     prose-figcaption:mb-2
 
+    prose-img:rounded-xl
+    prose-img:shadow-md
+
     prose-li:marker:text-accent
 
     dark:prose-invert
